@@ -401,7 +401,7 @@ site](https://caliban.readthedocs.io/en/latest/) and check out the links on the
 sidebar.
 
 If you find anything confusing, please feel free to [create an
-issue](https://github.com/google/caliban/issues) on our [Github Issues
+issue](https://github.com/google/caliban/issues) on our [GitHub Issues
 page](https://github.com/google/caliban/issues), and we'll get you sorted out.
 
 ## Command Overview
@@ -483,7 +483,7 @@ Issues should be reported on the [GitHub issue
 tracker](https://github.com/google/caliban/issues).
 
 If you want to discuss an idea for a new feature or ask us a question,
-discussion occurs primarily in the body of [Github
+discussion occurs primarily in the body of [GitHub
 Issues](https://github.com/google/caliban/issues), though the project is growing
 large enough that we may start a Gitter channel soon.
 

@@ -65,7 +65,7 @@ various modes. If you want to get started in a more interactive way, head over
 to `the Caliban tutorials
 directory <https://github.com/google/caliban/blob/main/tutorials/README.md>`_.
 
-Caliban's code lives on `Github <https://github.com/google/caliban>`_.
+Caliban's code lives on `GitHub <https://github.com/google/caliban>`_.
 
 Using Caliban
 -------------
