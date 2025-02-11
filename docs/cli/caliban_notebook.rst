@@ -58,8 +58,8 @@ Mounted Home Directory
 allows your Jupyter settings to persist across sessions. If you don't want this
 for some reason, run the command with the ``--bare`` flag.
 
-Custom Jupyer Port
-~~~~~~~~~~~~~~~~~~
+Custom Jupyter Port
+~~~~~~~~~~~~~~~~~~~
 
 If you'd like to run ``notebook`` using a different port, use the ``--port`` option:
 
