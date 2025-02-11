@@ -44,12 +44,12 @@ Here's an example ``setup.py`` file:
            'gpu': ['tensorflow-gpu==2.0.*'],
        },
        packages=find_packages(),
-       description='Hello Tensorflow setup file.')
+       description='Hello TensorFlow setup file.')
 
 This project has two normal dependencies - ``'absl-py'`` for flags, and
 ``'google-cloud-storage'`` to interact with Cloud buckets.
 
-The ``setup.py`` file declares its Tensorflow dependencies in a dictionary under
+The ``setup.py`` file declares its TensorFlow dependencies in a dictionary under
 the ``extras_require`` key. If you're using pip, you would install dependencies
 from just ``install_requires`` by running
 

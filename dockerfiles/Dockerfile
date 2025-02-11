@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # This builds the base images that we can use for development at Blueshift.
-# Tensorflow 2.1 by default, but we can override the image when we call docker.
+# TensorFlow 2.1 by default, but we can override the image when we call docker.
 #
 # docker build -t gcr.io/blueshift-playground/blueshift:cpu -f- . <Dockerfile
 #

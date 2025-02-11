@@ -12,7 +12,7 @@ and the environment in AI Platform or Cloud. Here's a typical situation:
 * You run your code locally against some set of dependencies you installed
   months ago in the virtual environment you use for all your code.
 * You get everything working and submit it to Cloud. Minutes later you see a
-  failure - your specified Tensorflow version is wrong. You submit again,
+  failure - your specified TensorFlow version is wrong. You submit again,
   specifying the beta of TF 2.0 that you've been using... and the job fails.
   That version's not available in Cloud.
 * Finally the submission works, but the job fails again. The ``gsutil`` command
