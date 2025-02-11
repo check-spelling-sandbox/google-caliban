@@ -220,7 +220,7 @@ def test_job_spec(engine: Engine):
       )
     )
 
-  # verify that new spec was peristed
+  # verify that new spec was persisted
   with session_scope(engine) as session:
     s = session.query(JobSpec).all()
     assert len(s) == 2
