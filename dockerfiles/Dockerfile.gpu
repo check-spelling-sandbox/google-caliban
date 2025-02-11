@@ -32,7 +32,8 @@ SHELL ["/bin/bash", "-c"]
 
 # These dependencies come from the list at the official Tensorflow GPU base
 # image:
-# https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/dockerfiles/dockerfiles/gpu.Dockerfile
+# https://github.com/tensorflow/build/blob/master/tensorflow_runtime_dockerfiles/gpu.Dockerfile
+# https://github.com/tensorflow/build/blob/e23ae5591020ef3cb2917293ed92af7ea70bcdb1/tensorflow_runtime_dockerfiles/gpu.packages.txt
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
   build-essential \
