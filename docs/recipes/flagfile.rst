@@ -46,7 +46,7 @@ Nested Flagfiles
 ~~~~~~~~~~~~~~~~
 
 You can supply ``--flagfile some_file`` arguments inside flag files! This allows
-you to build up trees of arguments in a fine grained way. Imagine some flagfile
+you to build up trees of arguments in a fine-grained way. Imagine some flagfile
 called ``v100_project.flags``\ :
 
 .. code-block:: text
