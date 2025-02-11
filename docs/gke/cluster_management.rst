@@ -31,7 +31,7 @@ will look something like the following:
   :alt: Cluster creation progress
 
 Once your cluster is created and running, you can view and inspect it from the
-cloud dashboard from the ``Kuberenetes Engine > Clusters`` menu option:
+cloud dashboard from the ``Kubernetes Engine > Clusters`` menu option:
 
 .. image:: /_static/img/gke/cluster_dashboard.png
   :width: 600
