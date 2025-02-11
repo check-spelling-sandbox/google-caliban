@@ -298,7 +298,7 @@ class Experiment(Base):
   kwargs (JSON): a dictionary of keyword-args
   container_spec (ContainerSpec): the container spec associated with this experiment
   xgroup (ExperimentGroup): the experiment group associated with this experiment
-  job_specs (Iterable[JobSpec]): job specs assocated with this experiment
+  job_specs (Iterable[JobSpec]): job specs associated with this experiment
   jobs (Iterable[Job]): job instances of this experiment
   """
 
