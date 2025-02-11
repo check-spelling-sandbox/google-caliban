@@ -90,7 +90,7 @@ def test_experiment_group(engine: Engine):
 
   test_timestamp = datetime.now()
 
-  # test experiment group addition/peristence, test duplicate
+  # test experiment group addition/persistence, test duplicate
   with session_scope(engine) as session:
     xg = verify_xg(session)
     assert xg.created < test_timestamp
