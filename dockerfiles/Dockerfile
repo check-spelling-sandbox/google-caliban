@@ -33,7 +33,7 @@ MAINTAINER Sam Ritchie <sritchie09@gmail.com>
 ARG GCLOUD_LOC=/usr/local/gcloud
 ARG PYTHON_VERSION=3.7
 
-# minicoda release archive is here: https://repo.anaconda.com/miniconda
+# miniconda release archive is here: https://repo.anaconda.com/miniconda
 # see the docs here for managing python versions with conda:
 # https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html
 ARG MINICONDA_VERSION=py37_4.8.2
