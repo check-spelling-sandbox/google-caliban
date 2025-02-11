@@ -70,7 +70,7 @@ Full documentation for Caliban lives at [Read The Docs](https://caliban.readthed
 
 ## Installation and Prerequisites
 
-Caliban's prequisites are [Docker](#docker) and [Python >= 3.6](#python-36).
+Caliban's prerequisites are [Docker](#docker) and [Python >= 3.6](#python-36).
 
 Make sure your Python is up to date:
 
