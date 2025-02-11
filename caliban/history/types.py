@@ -37,7 +37,7 @@ from caliban.util import current_user
 #   Query(Foo).filter(Bar.json_column == {'a':4})
 # Postgres supportst this as well, but *only* for JSONB columns. Thus in order
 # to use both sqlite and postgres backends you must stick to JSON columns,
-# and when doing comparisons, use filter experssions of the form:
+# and when doing comparisons, use filter expressions of the form:
 #   Query(Foo).filter(Bar.json_column.cast(String) == json.dumps({'a':4}))
 # The danger here of course is that if the json serialization is inconsistent,
 # then the above query will fail. As of this writing (2020.05.15), the
