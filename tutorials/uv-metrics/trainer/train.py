@@ -251,7 +251,7 @@ def build_reporters(
 
   # See how easy it is to build non-trivial reporters? At this stage, we have a
   # reporter that is logging to four reporter implementations - an in-memory
-  # version for immediate graphing (imagine a notebook usecase), a logging
+  # version for immediate graphing (imagine a notebook use case), a logging
   # version, and two separate filesystem instances.
 
   # Finally, let's append a tensorboard reporter if the user's supplied it:
