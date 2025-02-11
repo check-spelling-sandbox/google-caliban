@@ -1,7 +1,7 @@
 Passing Flags via --flagfile
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you find yourself passing lots of flags in to some caliban subcommand, you
+If you find yourself passing lots of flags to some caliban subcommand, you
 might consider Abseil's ``--flagfile`` feature.
 
 .. NOTE:: `Abseil <https://abseil.io/docs/python>`_ is a Google library that we
