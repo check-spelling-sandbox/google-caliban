@@ -120,7 +120,7 @@ Visit the `Google Cloud SDK installation page
 <https://cloud.google.com/sdk/install>`_ for a full set of installation
 instructions. Here is the distilled version:
 
-- For MacOS, run the `interactive installer
+- For macOS, run the `interactive installer
   <https://cloud.google.com/sdk/docs/downloads-interactive>`_.
 - For Linux, use `apt-get
   <https://cloud.google.com/sdk/docs/downloads-apt-get>`_ to get the latest

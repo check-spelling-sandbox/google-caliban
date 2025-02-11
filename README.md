@@ -102,7 +102,7 @@ usage: caliban [-h] [--helpfull] [--version]
 Caliban executes your code inside a "container", managed by
 [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac). To get Docker:
 
-- On MacOS, follow the installation instructions at [Docker
+- On macOS, follow the installation instructions at [Docker
   Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac) and
   start the newly-installed Docker Desktop application.
 - On Linux, visit the [Docker installation
@@ -138,7 +138,7 @@ Python 3.6.9 # should be >=3.6.0
 
 If you need to upgrade:
 
-- On MacOS, install the latest Python version from
+- On macOS, install the latest Python version from
   [python.org](https://www.python.org/downloads/mac-osx) ([direct
   link](https://www.python.org/ftp/python/3.8.3/python-3.8.3-macosx10.9.pkg)).
 - On Linux, run `sudo apt-get update && sudo apt-get install python3.7`.
