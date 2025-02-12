@@ -374,7 +374,7 @@ def _job_submit(args: dict, cluster: Cluster) -> None:
   docker_m = {"job_mode": job_mode, "package": package, **docker_args}
 
   # --------------------------------------------------------------------------
-  # validatate gpu spec
+  # validate gpu spec
   if job_mode == conf.JobMode.GPU and gpu_spec is None:
     gpu_spec = k.DEFAULT_GPU_SPEC
 

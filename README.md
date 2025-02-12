@@ -70,7 +70,7 @@ Full documentation for Caliban lives at [Read The Docs](https://caliban.readthed
 
 ## Installation and Prerequisites
 
-Caliban's prequisites are [Docker](#docker) and [Python >= 3.6](#python-36).
+Caliban's prerequisites are [Docker](#docker) and [Python >= 3.6](#python-36).
 
 Make sure your Python is up to date:
 
@@ -102,7 +102,7 @@ usage: caliban [-h] [--helpfull] [--version]
 Caliban executes your code inside a "container", managed by
 [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac). To get Docker:
 
-- On MacOS, follow the installation instructions at [Docker
+- On macOS, follow the installation instructions at [Docker
   Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac) and
   start the newly-installed Docker Desktop application.
 - On Linux, visit the [Docker installation
@@ -138,7 +138,7 @@ Python 3.6.9 # should be >=3.6.0
 
 If you need to upgrade:
 
-- On MacOS, install the latest Python version from
+- On macOS, install the latest Python version from
   [python.org](https://www.python.org/downloads/mac-osx) ([direct
   link](https://www.python.org/ftp/python/3.8.3/python-3.8.3-macosx10.9.pkg)).
 - On Linux, run `sudo apt-get update && sudo apt-get install python3.7`.
@@ -401,7 +401,7 @@ site](https://caliban.readthedocs.io/en/latest/) and check out the links on the
 sidebar.
 
 If you find anything confusing, please feel free to [create an
-issue](https://github.com/google/caliban/issues) on our [Github Issues
+issue](https://github.com/google/caliban/issues) on our [GitHub Issues
 page](https://github.com/google/caliban/issues), and we'll get you sorted out.
 
 ## Command Overview
@@ -483,7 +483,7 @@ Issues should be reported on the [GitHub issue
 tracker](https://github.com/google/caliban/issues).
 
 If you want to discuss an idea for a new feature or ask us a question,
-discussion occurs primarily in the body of [Github
+discussion occurs primarily in the body of [GitHub
 Issues](https://github.com/google/caliban/issues), though the project is growing
 large enough that we may start a Gitter channel soon.
 

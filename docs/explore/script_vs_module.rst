@@ -62,7 +62,7 @@ Using Caliban with Shell Scripts
 Caliban can build containers for you that will execute arbitrary shell scripts,
 in addition to python code.
 
-If you pass a relative path that points to any file other other than:
+If you pass a relative path that points to any file other than:
 
 
 * a python module, or

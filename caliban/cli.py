@@ -582,7 +582,7 @@ def parse_flags(argv):
 def generate_docker_args(
   job_mode: conf.JobMode, args: Dict[str, Any]
 ) -> Dict[str, Any]:
-  """gemerate docker args from args and job mode"""
+  """generate docker args from args and job mode"""
 
   # Get extra dependencies in case you want to install your requirements via a
   # setup.py file.

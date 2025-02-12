@@ -1026,7 +1026,7 @@ class Cluster(object):
 
   # --------------------------------------------------------------------------
   def validate_gpu_spec(self, gpu_spec: Optional[GPUSpec]) -> bool:
-    """validates gpu spec against zone and cluster contraints
+    """validates gpu spec against zone and cluster constraints
 
     Args
     gpu_spec: gpu spec

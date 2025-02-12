@@ -54,7 +54,7 @@ experiment group. By specifying ``--max_jobs 2`` in the call, we can see the two
 most recent job submissions for each experiment in the group. In this case, we
 can see that experiment 2 was submitted both locally and to CAIP at different
 times. We can also see that experiment 1 failed (due to an invalid parameter),
-and that the first submision to CAIP of experiment 5 was stopped by the user.
+and that the first submission to CAIP of experiment 5 was stopped by the user.
 
 Another interesting thing to note here is that the container hash is the same
 for each of these job submissions, so we can tell that the underlying code did

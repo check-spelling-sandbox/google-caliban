@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # This builds the base images that we can use for development at Blueshift.
-# Tensorflow 2.1 by default, but we can override the image when we call docker.
+# TensorFlow 2.1 by default, but we can override the image when we call docker.
 #
 # docker build -t gcr.io/blueshift-playground/blueshift:cpu -f- . <Dockerfile
 #
@@ -33,7 +33,7 @@ MAINTAINER Sam Ritchie <sritchie09@gmail.com>
 ARG GCLOUD_LOC=/usr/local/gcloud
 ARG PYTHON_VERSION=3.7
 
-# minicoda release archive is here: https://repo.anaconda.com/miniconda
+# miniconda release archive is here: https://repo.anaconda.com/miniconda
 # see the docs here for managing python versions with conda:
 # https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html
 ARG MINICONDA_VERSION=py37_4.8.2

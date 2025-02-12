@@ -42,7 +42,7 @@ documentation soon.
 - Update uv-metrics tutorial (https://github.com/google/caliban/pull/74, https://github.com/google/caliban/pull/72)
 - add support for running an embedded cloudsql_proxy (https://github.com/google/caliban/pull/60)
 - bugfix for #65: do not add resource maxima when quota is < 1 (#67)
-- Updated accelerator regions (and globally availabe AI Platform regions to
+- Updated accelerator regions (and globally available AI Platform regions to
   match the current state here):
   https://cloud.google.com/ai-platform/training/docs/regions
 
@@ -163,7 +163,7 @@ notebook invocations.
 ## 0.2.4
 
 - fixes a bug with `parse_region` not handling a lack of default.
-- converts the build to Github Actions.
+- converts the build to GitHub Actions.
 - Rolls Caliban back to requiring only python 3.6 support.
 - Removes some unused imports from a few files.
 

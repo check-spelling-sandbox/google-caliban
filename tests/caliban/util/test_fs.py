@@ -87,7 +87,7 @@ def test_tmp_copy(tmpdir):
   from_d_path = None
   to_d_path = None
 
-  # prepare valid data in the a and b sources.
+  # prepare valid data in the `a` and `b` sources.
   a_data = {"apt_packages": ["face"]}
 
   with open(from_a_path, "w") as f:

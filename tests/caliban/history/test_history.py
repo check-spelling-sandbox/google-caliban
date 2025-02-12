@@ -90,7 +90,7 @@ def test_experiment_group(engine: Engine):
 
   test_timestamp = datetime.now()
 
-  # test experiment group addition/peristence, test duplicate
+  # test experiment group addition/persistence, test duplicate
   with session_scope(engine) as session:
     xg = verify_xg(session)
     assert xg.created < test_timestamp
@@ -220,7 +220,7 @@ def test_job_spec(engine: Engine):
       )
     )
 
-  # verify that new spec was peristed
+  # verify that new spec was persisted
   with session_scope(engine) as session:
     s = session.query(JobSpec).all()
     assert len(s) == 2

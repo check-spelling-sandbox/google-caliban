@@ -52,7 +52,7 @@ laptop or workstation:
   :doc:`/cli/caliban_status` when you need to cancel pending jobs, or re-build a
   container and resubmit a batch of experiments after fixing a bug.
 
-These all work from :doc:`your Macbook Pro <explore/mac>`. (Yes, you can build
+These all work from :doc:`your MacBook Pro <explore/mac>`. (Yes, you can build
 and submit GPU jobs to Cloud from your Mac!)
 
 The only requirement for the directory where you run these commands is that it
@@ -65,7 +65,7 @@ various modes. If you want to get started in a more interactive way, head over
 to `the Caliban tutorials
 directory <https://github.com/google/caliban/blob/main/tutorials/README.md>`_.
 
-Caliban's code lives on `Github <https://github.com/google/caliban>`_.
+Caliban's code lives on `GitHub <https://github.com/google/caliban>`_.
 
 Using Caliban
 -------------

@@ -1,7 +1,7 @@
 Passing Flags via --flagfile
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you find yourself passing lots of flags in to some caliban subcommand, you
+If you find yourself passing lots of flags to some caliban subcommand, you
 might consider Abseil's ``--flagfile`` feature.
 
 .. NOTE:: `Abseil <https://abseil.io/docs/python>`_ is a Google library that we
@@ -46,7 +46,7 @@ Nested Flagfiles
 ~~~~~~~~~~~~~~~~
 
 You can supply ``--flagfile some_file`` arguments inside flag files! This allows
-you to build up trees of arguments in a fine grained way. Imagine some flagfile
+you to build up trees of arguments in a fine-grained way. Imagine some flagfile
 called ``v100_project.flags``\ :
 
 .. code-block:: text

@@ -1,7 +1,7 @@
 Caliban on a Mac
 ^^^^^^^^^^^^^^^^^^^^^^
 
-If you're developing on your Macbook, you'll be able to build GPU containers,
+If you're developing on your MacBook, you'll be able to build GPU containers,
 but you won't be able to run them locally. You can still submit GPU jobs to AI
 Platform!
 
@@ -17,5 +17,5 @@ error:
 
    (GPU mode is fine for 'caliban cloud' from a Mac; just nothing that runs locally.)
 
-The :doc:`../getting_started/prerequisites` page covers Macbook installation of
+The :doc:`../getting_started/prerequisites` page covers MacBook installation of
 Docker and other dependencies.

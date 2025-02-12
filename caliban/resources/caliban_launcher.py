@@ -101,7 +101,7 @@ def _execute_command(cmd, args, env):
 
 def _load_config_file():
   """loads the launcher configuration data from the config file
-  at ./resources/'caliban_laucher_cfg.json as a dict
+  at ./resources/'caliban_launcher_cfg.json as a dict
   """
   if not os.path.exists(LAUNCHER_CONFIG_PATH):
     return {}

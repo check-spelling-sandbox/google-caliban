@@ -16,7 +16,7 @@ Caliban requires Python >= 3.6. Check your current version at the terminal:
 
 If you need to upgrade:
 
-- on MacOS, download `the latest Python from python.org
+- on macOS, download `the latest Python from python.org
   <https://www.python.org/downloads/mac-osx>`_.
 - On Linux, make sure your ``python3`` is up to date by running the following
   command at your terminal:
@@ -35,9 +35,9 @@ To use Caliban, you'll need a working Docker installation. If you have a GPU and
 want to run jobs that use it, you'll have to install ``nvidia-docker2``, as
 described below in :ref:`GPU Support on Linux Machines`
 
-- On MacOS, install `Docker Desktop for Mac
+- On macOS, install `Docker Desktop for Mac
   <https://hub.docker.com/editions/community/docker-ce-desktop-mac>`_. You'll
-  only be able to run in CPU mode, as MacOS doesn't support Docker's nvidia
+  only be able to run in CPU mode, as macOS doesn't support Docker's nvidia
   runtime. You will, however, be able to build GPU containers and submit them to
   Google Cloud.
 - On Linux, install Docker with `these instructions
